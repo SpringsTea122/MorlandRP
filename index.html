@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<title>Load Screen Morland RP</title>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/sleek.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <h1> Hello its me</h1>
+	<div id="player"></div>
+	<div id="overlay"></div>
+
+	<div data-aos="fade-up"  data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center" id="status-container">
+		<img src="images/WIZARD_RP.jpg" class="imgwizard" width="300px" >
+		<div id="status">Conectandose al servidor...</div>
+		<div id="loading">
+			<div id="loading-progress"></div>
+			
+		</div>
+		<div id="messages"></div>
+	</div>
+	
+
+	<div id="music">
+		Ahora estás escuchando..<div id="music-name"></div>
+	</div>
+
+	<div id="programadores" class="botoninfla">
+	
+		Fundador: Mordred#3012 Programador: Lisiw#0650
+	</div>
+
+	
+
+
+
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.backstretch.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/sleek.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 </body>
 </html>
